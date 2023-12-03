@@ -141,10 +141,10 @@
 %%%自定义章节
 \RequirePackage{titlesec}
 %%自定义chapter
-\titleformat{\chapter}[hang]
-    {\LARGE\filcenter\bf\color{maincolor}}
-    {第\chinese{chapter} 章}
-    {15pt}
+\titleformat{\chapter}[display]
+    {\huge\filleft\bfseries\color{maincolor}}
+    {Chapter \thechapter}
+    {5pt}
     {}
     []
 
