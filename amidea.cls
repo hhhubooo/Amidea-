@@ -5,6 +5,7 @@
 
 
 \LoadClass{ctexbook}
+% \LoadClass[fontset=fandol]{ctexbook} % 在windows下使用真正的粗体
 
 
 % \RequirePackage{ctex}
@@ -143,7 +144,7 @@
 %%自定义chapter
 \titleformat{\chapter}[display]
     {\huge\filleft\bfseries\color{maincolor}}
-    {Chapter \thechapter}
+    {Chapter \Huge\sf\thechapter}
     {5pt}
     {}
     []
